@@ -1,0 +1,95 @@
+.wrapper{
+    text-align: center;
+    position: relative;
+    padding: 0px;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+.background{
+    background: url(https://www.hulu.com/static/hitch/s3/2020-06/Homepage_Masthead_Test_DESKTOP_3200x1320-v4c_6.16.20.jpg?t.h4WwAhD1rrl9t1M_SYrNCgeYS_ON48);
+    width: 1920px;
+    height: 600px;
+}
+
+.ribbon{
+    background: linear-gradient(318.68deg, #0F495C 0%, #0D3640 49.72%, #08141F 100%);
+    display: flex;
+    flex-direction: column;
+    width: 1920px;
+    height: 150px;
+}
+
+.ribbonPhoto{
+    flex: 1; 
+    max-width: 100px;
+}
+
+#save{
+    position: relative;
+    top: -100px;
+    color: #2DBD9D;
+    font: 12px;
+}
+
+#saveRate{
+    position: relative;
+    top: -100px;
+    color: #ffffff;
+    font: 16px;
+}
+
+.details{
+    position: relative;
+    top: -100px;
+    color: #ffffff;
+    font: 14px;
+}
+
+#bundleButton{
+    position: relative;
+    top: -220px;
+    left: 700px;
+    color: #ffffff;
+    font: 24px;
+    font-family: Graphik, Arial, Helvetica, sans-serif;
+    background-color: transparent;
+    border: 3px solid white;
+    outline: none;
+}
+
+.terms{
+    position: relative;
+    font: 10px;
+    color: #131212;
+    top: -225px;
+    left: 700px;
+}
+
+#logIn{
+    color: #ffffff;
+    float: right;
+    margin-top: 3em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    font: 14px;
+    font-family: Graphik, Arial, Helvetica, sans-serif;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding: 23px 0px 17px;
+
+}
+
+.masthead{
+    text-align: center;
+    top: -50px;
+}
+
+.freeMonth{
+color: #2DBD9D;
+padding: 0px 0px 8px;
+}

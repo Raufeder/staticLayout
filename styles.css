@@ -1,90 +1,243 @@
 body {
-    color: red;
+    background-color: black;
 }
 
-#header-background{
-    background: url(https://www.hulu.com/static/hitch/s3/2020-06/Homepage_Masthead_Test_DESKTOP_3200x1320-v4c_6.16.20.jpg?t.h4WwAhD1rrl9t1M_SYrNCgeYS_ON48);
+header {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.headerbg {
+    height: 650px;
     width: 100%;
 }
 
-.ribbon{
-    background-image: linear-gradient(318.68deg, #0F495C 0%, #0D3640 49.72%, #08141F 100%);
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 150px;
+.header1 {
+    width: 60px;
+    position: absolute;
+    color: white;
+    top: 0;
+    right: 0;
+    padding: 25px 50px 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
 }
 
-.ribbonPhoto{
-    max-width: 100px;
+.header1:hover {
+    color: gray;
 }
 
-#save{
-    position: relative;
-    top: -100px;
-    color: #2DBD9D;
-    font: 12px;
-}
-
-#saveRate{
-    position: relative;
-    top: -100px;
-    color: #ffffff;
-    font: 16px;
-}
-
-.details{
-    position: relative;
-    top: -100px;
-    color: #ffffff;
-    font: 14px;
-}
-
-#bundleButton{
-    position: relative;
-    top: -220px;
-    left: 700px;
-    color: #ffffff;
-    font: 24px;
-    font-family: Graphik, Arial, Helvetica, sans-serif;
-    background-color: transparent;
-    border: 3px solid white;
-    outline: none;
-}
-
-.terms{
-    position: relative;
-    font: 10px;
-    color: #131212;
-    top: -225px;
-    left: 700px;
-}
-
-#logIn{
-    color: #ffffff;
-    float: right;
-    margin-top: 3em;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    font: 14px;
-    font-family: Graphik, Arial, Helvetica, sans-serif;
-    background-color: transparent;
-    border: none;
-    outline: none;
-    padding: 23px 0px 17px;
-
-}
-
-/* .masthead{
+.greentext {
+    color: rgb(45,189,157);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    position: absolute;
+    top: 150px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
     text-align: center;
-    top: -50px;
-} */
-
-.freeMonth{
-color: #2DBD9D;
-padding: 0px 0px 8px;
 }
 
-/* #bottom-half {
+.logo {
+    width: 275px;
+    height: 80px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 30em;
+    right: 0;
+    margin: auto;
+}
+
+.pitch {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 14em;
+    right: 0;
+    margin: auto;
+    height: 30px;
+    width: 700px;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.addons {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 9em;
+    right: 0;
+    margin: auto;
+    height: 30px;
+    width: 700px;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.button {
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 2em;
+    right: 0;
+    margin: auto;
+    height: 50px;
+    width: 250px;
+
+    border-radius: 5px;
+}
+
+.buttonText {
+    color: black;
+    font-size: 14px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    position: absolute;
+    top: 1.2em;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+
+.button:hover {
+    opacity: 0.7;
+}
+
+.trialDisclaimer {
+    position: absolute;
+    top: 8em;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    height: 30px;
+    width: 700px;
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 0.6;
+}
+
+.gradBar {
+    position: absolute;
+    top: 22em;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    height: 150px;
     width: 100%;
-} */
+    background-image: linear-gradient(to right, rgb(8,23,34) , rgb(15,71,89));
+    background-color: salmon;
+}
+
+.brand {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 1em;
+    right: 70em;
+    margin: auto;
+    height: 81px;
+    width: 327px;
+}
+
+.save {
+    color: rgb(45,189,157);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    position: absolute;
+    top: 2em;
+    left: 55em;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+
+.cost {
+    position: absolute;
+    top: 2.2em;
+    left: 27.4em;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    color: white;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.deets {
+    color: rgb(182,192,195);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    position: absolute;
+    top: 8em;
+    left: 55em;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+
+.bundleButton {
+    background-color:  rgb(15,71,89);
+    position: absolute;
+    top: 0;
+    left: 80em;
+    bottom: 1em;
+    right: 0;
+    margin: auto;
+    height: 60px;
+    width: 160px;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+.bundleButtonText {
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    position: absolute;
+    top: 1.6em;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+
+.terms {
+    color: rgb(182,192,195);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 10px;
+    position: absolute;
+    top: 11em;
+    left: 157em;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}

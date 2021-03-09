@@ -241,3 +241,12 @@ header {
     right: 0;
     margin: auto;
 }
+
+#examplePhoto{
+    width: 100%;
+    position: absolute;
+    top: 700px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
